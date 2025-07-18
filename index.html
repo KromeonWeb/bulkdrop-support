@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BulkDrop - Support & Help</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .faq-answer {
+            color: #6c757d;
+            line-height: 1.7;
+        }
+
+        .troubleshooting-step {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .contact-info {
+            background: #e8f4f8;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: #0c5460;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .email-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            background: white;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .email-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .form-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .form-container iframe {
+            width: 100%;
+            min-height: 600px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .app-info {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .app-info h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BulkDrop Support</h1>
+            <p>Your neighborhood marketplace for buying and selling in bulk</p>
+        </div>
+
+        <div class="section">
+            <div class="app-info">
+                <h3>About BulkDrop</h3>
+                <p>BulkDrop is the best way to buy and sell in bulk in your neighborhood. Moving, downsizing, or just decluttering? Don't waste your time selling items one by one. With BulkDrop, you can sell them all at once to local buyers who are ready to take them off your hands. It's the easiest, safest, and most sustainable way to clear out your space – fast!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I verify my email address?</div>
+                <div class="faq-answer">After signing up, you'll receive a verification email. Click the link in the email to verify your account. If you don't see the email, check your spam folder or request a new verification email from the app.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Why do I need to connect a Stripe account to sell?</div>
+                <div class="faq-answer">We use Stripe Connect to ensure secure payments between buyers and sellers. This protects both parties and ensures you receive your payments safely. You'll need to set this up before creating your first listing.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What information do I need for Stripe Connect setup?</div>
+                <div class="faq-answer">You'll need a business name, business website, and bank account information. If you're an individual seller, we recommend signing up as an individual and using your social media profile link to satisfy the website requirement.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How long does account verification take?</div>
+                <div class="faq-answer">New seller accounts must be verified by our admin team before you can set up your store. This typically takes 1-2 business days. You'll receive a notification once your account is approved.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What can I sell on BulkDrop?</div>
+                <div class="faq-answer">You can sell furniture, bikes, kitchen gadgets, household items, and more - all in bulk quantities. Whether you have an apartment's worth of furniture or boxes of items, BulkDrop connects you with local buyers looking for great deals.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is BulkDrop only for local transactions?</div>
+                <div class="faq-answer">Yes! BulkDrop focuses on connecting local buyers and sellers in your neighborhood. This makes transactions more convenient and sustainable by reducing shipping needs.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Troubleshooting Guide</h2>
+            
+            <div class="troubleshooting-step">
+                <strong>Email Verification Issues:</strong>
+                <p>1. Check your spam/junk folder for the verification email<br>
+                2. Ensure you entered your email address correctly<br>
+                3. Try requesting a new verification email from the app<br>
+                4. Contact support if the issue persists</p>
+            </div>
+
+            <div class="troubleshooting-step">
+                <strong>Stripe Connect Setup Problems:</strong>
+                <p>1. Ensure all required fields are filled out completely<br>
+                2. For individuals: Use your social media profile as your business website<br>
+                3. Double-check your bank account information<br>
+                4. Try using a different browser if the setup page won't load</p>
+            </div>
+
+            <div class="troubleshooting-step">
+                <strong>Account Verification Delays:</strong>
+                <p>1. Allow 1-2 business days for admin verification<br>
+                2. Ensure your profile information is complete and accurate<br>
+                3. Check that your email is verified<br>
+                4. Contact support if verification takes longer than expected</p>
+            </div>
+
+            <div class="troubleshooting-step">
+                <strong>App Performance Issues:</strong>
+                <p>1. Close and restart the app<br>
+                2. Check your internet connection<br>
+                3. Update to the latest version of the app<br>
+                4. Restart your device if problems persist</p>
+            </div>
+
+            <div class="highlight">
+                <strong>💡 Pro Tip:</strong> For individual sellers, when setting up Stripe Connect, select "Individual" as your business type and use your Facebook, Instagram, or LinkedIn profile URL as your business website. This satisfies the website requirement without needing to create a separate business website.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📝 Submit a Support Request</h2>
+            <p>Can't find what you're looking for? Send us a message and we'll help you out!</p>
+            
+            <div class="form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScksAxRi2x2sWI_uZjLy2Ah9grQuRqoVDBTZyg8QvYY3iLPhg/viewform?embedded=true" 
+                        width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">
+                    Loading support form...
+                </iframe>
+            </div>
+            
+            <p style="margin-top: 15px; font-size: 0.9em; color: #6c757d;">
+                <em>Note: Replace the iframe src with your actual Google Form embed URL</em>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>📞 Contact Information</h2>
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>For direct support, email us at:</p>
+                <a href="mailto:support@bulkdropapp.com" class="email-link">support@bulkdropapp.com</a>
+                <p style="margin-top: 20px; font-size: 0.9em; color: #6c757d;">
+                    We typically respond within 24 hours during business days.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
